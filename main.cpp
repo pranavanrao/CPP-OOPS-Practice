@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "Rectangle.h"
-#include "Student.h"
+#include "rectangle/Rectangle.h"
+#include "student/Student.h"
 
 using namespace std;
 

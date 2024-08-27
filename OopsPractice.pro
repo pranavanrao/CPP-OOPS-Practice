@@ -4,10 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        Rectangle.cpp \
-        Student.cpp \
-        main.cpp
+        main.cpp \
+        rectangle/Rectangle.cpp \
+        student/Student.cpp
 
 HEADERS += \
-    Rectangle.h \
-    Student.h
+    rectangle/Rectangle.h \
+    student/Student.h
