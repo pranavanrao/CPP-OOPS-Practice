@@ -8,10 +8,12 @@ SOURCES += \
         animal/Dog.cpp \
         main.cpp \
         rectangle/Rectangle.cpp \
+        signalslots/Signal.cpp \
         student/Student.cpp
 
 HEADERS += \
     animal/Animal.h \
     animal/Dog.h \
     rectangle/Rectangle.h \
+    signalslots/Signal.h \
     student/Student.h

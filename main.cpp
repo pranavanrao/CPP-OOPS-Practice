@@ -3,6 +3,7 @@
 #include "rectangle/Rectangle.h"
 #include "student/Student.h"
 #include "animal/Dog.h"
+#include "signalslots/Signal.h"
 
 using namespace std;
 
@@ -58,6 +59,14 @@ void parseAnimal() {
     dog1.displayInfo(dog1.getColor());
 }
 
+void slotFunction1(int value) {
+    cout << "Slot 1 received : " << value << endl;
+}
+
+void slotFunction2(int value) {
+    cout << "Slot 2 received : " << value << endl;
+}
+
 int main()
 {
     // RECTANGLE class
@@ -67,6 +76,16 @@ int main()
     // parseStudent();
 
     // ANIMAL class
-    parseAnimal();
+    // parseAnimal();
+
+    // SIGNALS and SLOTS
+    Signal signal;
+
+    signal.connect(slotFunction1);
+    signal.connect(slotFunction2);
+
+    signal.emit(69);
+    signal.emit(79);
+
     return 0;
 }
