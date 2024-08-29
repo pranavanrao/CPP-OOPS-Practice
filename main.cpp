@@ -2,6 +2,7 @@
 #include "student/parseStudent.cpp"
 #include "animal/parseAnimal.cpp"
 #include "signalslots/signalsAndSlots.cpp"
+#include "template/templateFunction.cpp"
 
 int main()
 {
@@ -16,6 +17,9 @@ int main()
 
     // SIGNALS and SLOTS
     // emitSignal();
+
+    // TEMPLATE FUNCTION
+    templateFunction();
 
     return 0;
 }

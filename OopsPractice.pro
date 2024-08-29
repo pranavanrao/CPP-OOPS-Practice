@@ -13,11 +13,14 @@ SOURCES += \
         signalslots/Signal.cpp \
         signalslots/signalsAndSlots.cpp \
         student/Student.cpp \
-        student/parseStudent.cpp
+        student/parseStudent.cpp \
+        template/adder.cpp \
+        template/templateFunction.cpp
 
 HEADERS += \
     animal/Animal.h \
     animal/Dog.h \
     rectangle/Rectangle.h \
     signalslots/Signal.h \
-    student/Student.h
+    student/Student.h \
+    template/adder.h
